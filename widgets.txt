@@ -1,0 +1,38 @@
+ElevatedButton(
+  onPressed: () {
+      // Respond to button press
+  },
+  child: Text('CONTAINED BUTTON'),
+)
+------------------------------------------
+ElevatedButton.icon(
+  onPressed: () {
+      // Respond to button press
+  },
+  icon: Icon(Icons.add, size: 18),
+  label: Text("CONTAINED BUTTON"),
+)
+-------------------------------------------
+OutlinedButton(
+  onPressed: () {
+      // Respond to button press
+  },
+  child: Text("OUTLINED BUTTON"),
+)
+--------------------------------------------
+OutlinedButton.icon(
+  onPressed: () {
+      // Respond to button press
+  },
+  icon: Icon(Icons.add, size: 18),
+  label: Text("OUTLINED BUTTON"),
+)
+--------------------------------------------
+MaterialButton(
+                      elevation: 16,
+                      color: Colors.blue,
+                      onPressed: () {
+                       
+                      },
+                      child: Text("Student Login", textDirection: TextDirection.ltr)
+                    )
